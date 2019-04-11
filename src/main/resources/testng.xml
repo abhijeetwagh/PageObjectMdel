@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >  
+<suite name="FreeCRM" verbose="1" >
+  <test name="FreeCRM app test" >
+    <classes>
+       <class name="Com.OrangeHRM.Testcases.ContactsPageTest"/>
+       <class name="Com.OrangeHRM.Testcases.HomePagetest"/>
+       <class name="Com.OrangeHRM.Testcases.LoginPageTest"/>
+    </classes>
+  </test>
+</suite>
