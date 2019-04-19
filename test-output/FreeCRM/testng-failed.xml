@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [FreeCRM]">
+  <test name="FreeCRM app test(failed)">
+    <classes>
+      <class name="Com.OrangeHRM.Testcases.HomePagetest">
+        <methods>
+          <include name="verifyHomePageTest"/>
+          <include name="tearDown"/>
+          <include name="VerifyContactLinkTest"/>
+          <include name="verifyUserNameTest"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- Com.OrangeHRM.Testcases.HomePagetest -->
+      <class name="Com.OrangeHRM.Testcases.ContactsPageTest">
+        <methods>
+          <include name="SetUp"/>
+          <include name="verifyContactsLabel"/>
+        </methods>
+      </class> <!-- Com.OrangeHRM.Testcases.ContactsPageTest -->
+      <class name="Com.OrangeHRM.Testcases.LoginPageTest">
+        <methods>
+          <include name="loginTest"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- Com.OrangeHRM.Testcases.LoginPageTest -->
+    </classes>
+  </test> <!-- FreeCRM app test(failed) -->
+</suite> <!-- Failed suite [FreeCRM] -->

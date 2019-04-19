@@ -5,6 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import Com.OrangeHRM.Base.Testbase;
+import Com.OrangeHRM.Testcases.DashBoardPage_Test;
 
 public class LoginPage extends Testbase{
 
@@ -29,12 +30,12 @@ public class LoginPage extends Testbase{
 	  
   }
   
-  public DashboardPage login(String username, String password){
+  public DashBoard_Page login(String username, String password){
 	  Username.sendKeys(username);
 	  Password.sendKeys(password);
 	  Login.click();
 	  
-	  return new DashboardPage();
+	  return new DashBoard_Page();
   }
   
 }

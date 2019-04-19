@@ -6,13 +6,13 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
 import Com.OrangeHRM.Base.Testbase;
-import Com.OrangeHRM.Pages.DashboardPage;
+import Com.OrangeHRM.Pages.DashBoard_Page;
 import Com.OrangeHRM.Pages.LoginPage;
 
 public class LoginPageTest extends Testbase {
 
 	LoginPage loginpage;
-	DashboardPage dashboard;
+	DashBoard_Page dashboard;
 	
     public  LoginPageTest(){
     	super();
